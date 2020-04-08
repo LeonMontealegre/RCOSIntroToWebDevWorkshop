@@ -1,5 +1,4 @@
-const ENTER_KEY = 13;
-
+import {ENTER_KEY} from "../../ts/utils/constants";
 
 // get references to all the HTML elements
 const calcInput  = document.getElementById("calculator-input") as HTMLInputElement;
