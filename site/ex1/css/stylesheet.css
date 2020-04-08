@@ -1,0 +1,59 @@
+/* Remove the terrible border around elements when you click on them */
+*:focus {
+    outline: none;
+}
+
+
+#calculator-wrapper {
+	width: 80%;
+	margin-left: 5%;
+	padding: 5%;
+
+	height: 500px;
+	margin-top: 20px;
+	background-color: rgba(200, 200, 200, 1.0);
+}
+#calculator-display {
+	width: calc(100% - 10px);
+	height: 100px;
+	padding: 5px;
+	background-color: rgba(100, 100, 100, 0.9);
+}
+#calculator-input {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	font-size: 40px;
+}
+
+#calculator-submit-button {
+	width: 50%;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 25%;
+	font-size: 30px;
+	border: none;
+	color: white;
+	background-color: rgba(111, 181, 111, 1.0);
+}
+#calculator-submit-button:hover {
+	background-color: rgba(105, 171, 105, 1.0);
+}
+#calculator-submit-button:active {
+	background-color: rgba(93, 153, 93, 1.0);
+}
+#calculator-submit-button:disabled {
+	background-color: rgba(159, 182, 159, 1.0);
+}
+
+
+#calculator-results {
+	width: 70%;
+	margin-top: 50px;
+	margin-left: 15%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: blueviolet 2px 2px;
+	color: pink;
+}

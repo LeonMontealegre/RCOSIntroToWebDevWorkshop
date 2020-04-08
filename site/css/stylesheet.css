@@ -1,0 +1,22 @@
+#title {
+	color: pink;
+}
+#subtitle {
+	font-style: italic;
+	margin-left: 20px;
+}
+#link {
+	color: maroon;
+	text-decoration: none;
+}
+#text-wrapper {
+	background-color: rgba(40, 60, 200, 0.2);
+	padding: 7px;
+	border: 1px solid black;
+}
+
+
+/* Remove the terrible border around elements when you click on them */
+*:focus {
+    outline: none;
+}

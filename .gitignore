@@ -1,0 +1,6 @@
+build/
+node_modules/
+_tests/
+package-lock.json
+
+.DS_Store
