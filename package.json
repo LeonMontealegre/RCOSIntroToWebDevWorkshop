@@ -10,6 +10,6 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "build": "webpack --config webpack.js --mode=development"
+    "build": "webpack --config webpack.config.js --mode=development"
   }
 }
